@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
 }
 
 header{
@@ -17,7 +16,6 @@ body{
     color: black;
     background-color: white;
     text-align: left;
-
 }
 
 main{
@@ -64,16 +62,30 @@ ul{
     border-bottom:30px solid #E8A062;
     border-radius: 30px;
 }
+.ingredients li:nth-child(even) {
+    border-top: 5px solid #FDC032;
+    background-color: #823922;
+    border-bottom: 10px solid #00A24B;
+}
 
 li{
     background-color: #E8A062;
     color: white;
     padding: 10px 40px;
 }
-#top:hover{
-    text-decoration:none;
 
+a:link, a{
+    color: forestgreen;
+    background-color: transparent;
+    text-decoration: none;
 }
+
+a:hover{
+    color: #E8A062;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 footer{
     background-color: #823922;
     color: white;
