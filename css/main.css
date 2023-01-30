@@ -25,3 +25,10 @@ header{
     height: 170px;
     width: 260px;
 }
+
+h1{
+    color: #fdc032;
+    font-size: 4rem;
+    line-height: 0.9px;
+
+}
