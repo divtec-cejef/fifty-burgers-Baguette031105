@@ -34,9 +34,11 @@ main{
     height: 170px;
     width: 260px;
 }
+
 h1, h2{
     font-family: Georgia, sans-serif;
 }
+
 h1{
     color: #fdc032;
     font-size: 4rem;
@@ -52,11 +54,15 @@ p{
     font-style: italic;
     text-transform: uppercase;
 }
+
 ul{
     list-style-type: none;
     padding: 0;
     max-width: 95%;
     margin: 40px auto;
+    border-top: 30px solid #E8A062;
+    border-bottom:30px solid #E8A062;
+    border-radius: 30px;
 }
 
 li{
@@ -64,7 +70,10 @@ li{
     color: white;
     padding: 10px 40px;
 }
+#top:hover{
+    text-decoration:none;
 
+}
 footer{
     background-color: #823922;
     color: white;
