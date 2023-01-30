@@ -56,3 +56,9 @@ p{
     font-style: italic;
     text-transform: uppercase;
 }
+ul{
+    list-style-type: none;
+    padding: 0;
+    max-width: 95%;
+    margin: 40px auto;
+}
