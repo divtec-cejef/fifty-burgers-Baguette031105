@@ -4,7 +4,7 @@
 
 header{
     background-color: black;
-    text-align: center;
+    text-align: left;
     margin: 10px;
 }
 
@@ -15,7 +15,7 @@ body{
     line-height: 1.4;
     color: black;
     background-color: white;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -61,4 +61,10 @@ ul{
     padding: 0;
     max-width: 95%;
     margin: 40px auto;
+}
+
+li{
+    background-color: #E8A062;
+    color: white;
+    padding: 10px 40px;
 }
